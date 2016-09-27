@@ -17,14 +17,15 @@ class EventApp():
         self.tkMessageBox=tkMessageBox
         self.ttk=ttk
         #using prettytable to create the tables for start and end time and event
-        self.mains=PrettyTable(["Start Time","EndTime","Day","Event"])
-        self.main1=PrettyTable(["Start Time","EndTime","Day","Event"])
-        self.main2=PrettyTable(["Start Time","EndTime","Day","Event"])
-        self.main3=PrettyTable(["Start Time","EndTime","Day","Event"])
-        self.main4=PrettyTable(["Start Time","EndTime","Day","Event"])
-        self.main5=PrettyTable(["Start Time","EndTime","Day","Event"])
-        self.main6=PrettyTable(["Start Time","EndTime","Day","Event"])
-        self.main7=PrettyTable(["Start Time","EndTime","Day","Event"])
+        headerFormat = ["Start Time","EndTime","Day","Event"]
+        self.mains=PrettyTable(headerFormat)
+        self.main1=PrettyTable(headerFormat)
+        self.main2=PrettyTable(headerFormat)
+        self.main3=PrettyTable(headerFormat)
+        self.main4=PrettyTable(headerFormat)
+        self.main5=PrettyTable(headerFormat)
+        self.main6=PrettyTable(headerFormat)
+        self.main7=PrettyTable(headerFormat)
         self.customFont = tkFont.Font(family="Helvetica", size=12)       
 
         #initializing functions
