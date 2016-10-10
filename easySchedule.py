@@ -360,16 +360,11 @@ class EventApp():
                 file_new=open("sunday.txt","w").close()
                 tkMessageBox.showinfo("Deleted","Sunday Event(s) Deleted")
         def deleteAllEvent():
-            result=tkMessageBox.askyesno("delete","Are you sure you want to delete Monday Event ?")
+            result=tkMessageBox.askyesno("delete","Are you sure you want to delete All Events ?")
+            files = ["text.txt", "monday.txt", "tuesday.txt", "wednesday.txt","thursday.txt","friday.txt" ,"saturday.txt" ,"sunday.txt"]
             if result is True:
-                file_new=open("text.txt","w").close()
-                file_new=open("monday.txt","w").close()
-                file_new=open("tuesday.txt","w").close()
-                file_new=open("wednesday.txt","w").close()
-                file_new=open("thursday.txt","w").close()
-                file_new=open("friday.txt","w").close()
-                file_new=open("saturday.txt","w").close()
-                file_new=open("sunday.txt","w").close()
+                for file_name in files:
+                    file_new=open(file_name,"w").close()
                 tkMessageBox.showinfo("Deleted","All Events Deleted")
 
         monday=Button(self.tab3, text="Delete Monday",bg='#4d79ff',fg='white',font=("Helvetica",14),command=deleteMonday).pack(fill=X,padx=100,ipady=10,pady=10)
