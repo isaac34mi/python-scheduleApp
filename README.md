@@ -8,9 +8,12 @@ time it was created decorated into a table-like form using pretty table which ca
 pip install pretty-table
 ```
 ####Below are the screenshot of Add, Retrieve and Delete Event respectively
-#####Add Event screenshot
-![alt text](/images/addEvent.png "add eventt 1")
-#####Retrieve Event screenshot
-![alt text](/images/retrieveEvent.png "retrieve event 1")
-#####Delete Event screenshot
-![alt text](/images/deleteEvent.png "delete event")
+Add Event screenshot: 
+![alt text](addEvent.png "add event")
+
+Retrieve Event screenshot:
+![alt text](/retrieveEvent.png "retrieve event")
+
+Delete Event screenshot
+![alt text](deleteEvent.png "delete event")
+
