@@ -9,8 +9,8 @@ pip install pretty-table
 ```
 ####Below are the screenshot of Add, Retrieve and Delete Event respectively
 #####Add Event screenshot
-![alt text](/images/addEvent.png "Logo add eventt 1")
+![alt text](/images/addEvent.png "add eventt 1")
 #####Retrieve Event screenshot
-![alt text](/images/retrieveEvent.png "Logo retrieve event 1")
+![alt text](/images/retrieveEvent.png "retrieve event 1")
 #####Delete Event screenshot
-![alt text](/images/deleteEvent.png "Logo delete event")
+![alt text](/images/deleteEvent.png "delete event")
